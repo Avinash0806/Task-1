@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('top-hindi-movies-releasing-in-20251730788588_0.jpg') no-repeat center center/cover;
+    color: white;
+}
+.main {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.signin-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signin-btn:hover {
+    background-color: darkred;
+}
+.content h2 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.get-started {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.get-started:hover {
+    background-color: darkred;
+}
+.featured {
+    margin-top: 50px;
+}
+
+.featured h3 {
+    font-size: 24px;
+}
+
+.shows {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.shows img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.shows img:hover {
+    transform: scale(1.1);
+}
